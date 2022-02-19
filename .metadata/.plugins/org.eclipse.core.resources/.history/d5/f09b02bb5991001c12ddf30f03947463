@@ -1,0 +1,23 @@
+package level1;
+
+import java.util.Arrays;
+
+public class ForCheck {
+	public static void main(String[] args) {
+		        // stream타입의 seoul 배열로 return돌려줌
+		String[] seoul = {"a", "b"};
+		        return Arrays.stream(seoul)
+		                .mapToInt(e -> {
+		                    int i = 0;
+		                    // 만약 string타입 e의 내용이 "Kim"과 일치하지 않는다면
+		                    if (!e.equals("Kim")) {
+		                        ++i;    // i++
+		                    }
+		                    return i;   // i값을 반환
+		                })
+		                .mapToObj(s -> "김서방은 " + s + "에 있다")
+		                .findFirst()
+		                .get();
+		    
+	}
+}
