@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="level1.Solution"/>
+    <fullyQualifiedTypeName name="monthlyCodeChallenge.Practice.Solution"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="javax.swing.text.Position"/>
 </qualifiedTypeNameHistroy>
