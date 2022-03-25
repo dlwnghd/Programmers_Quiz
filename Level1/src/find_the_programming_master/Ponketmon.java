@@ -15,6 +15,8 @@ public class Ponketmon {
 			// 폰켓몬을 종류별로 최대한 많이 가져갈 수 있는 수가 될것이고
 			// 아니라면 HashSet에 있는 폰켓몬의 수가 가져갈 수 있는 폰켓몬의 종류의 수의 최대가 될것이다.
 			
+			// 위 방법은 HashSet으로 다시 정의해야하기 때문에 효율성이 높지 못한 것이 아쉽다.
+			
 			Integer b[] = Arrays.stream(nums).boxed().toArray(Integer[]::new);
 			Set<Integer> set = new HashSet<>(Arrays.asList(b));
 
