@@ -15,7 +15,7 @@ public class Workout_clothes {
 			// 2. 위에 친구가 0개라면 주기
 			// check의 1번째 방부터 30번째 방까지의 check갯수 만큼이
 			// 최대한 많은 양의 수를 준 갯수
-			
+			// 
 			
 			// int타입 answer
 			int answer = 0;
