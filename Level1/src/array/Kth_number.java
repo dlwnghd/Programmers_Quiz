@@ -25,7 +25,6 @@ public class Kth_number {
 				// k번째 값 answer에 추가하기
 				answer[i] = list.get(commands[i][2] - 1);
 			}
-
 			return answer;
 		}
 	}
